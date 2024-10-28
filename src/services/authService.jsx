@@ -1,4 +1,4 @@
-const API_URL = import.meta.env.REACT_APP_API_URL;
+const API_URL = import.meta.env.REACT_APP_API_BASE_URL;
 
 export const loginUser = async (credentials) => {
     try {
