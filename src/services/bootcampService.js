@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const apiBaseUrl = 'http://localhost:5000/api/auth/bootcamps'; // Asegúrate de que esta URL sea correcta
+const apiBaseUrl = import.meta.env.REACT_APP_API_URL // Asegúrate de que esta URL sea correcta
 
 export const getBootcamps = async () => {
     const token = localStorage.getItem('token');
